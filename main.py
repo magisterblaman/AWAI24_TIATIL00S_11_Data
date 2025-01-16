@@ -1,36 +1,9 @@
-my_dict = {
-    "name": "Sven-Ingvar",
-    "age": 13,
-    "birth_date": {
-        "year": 2012,
-        "month": 1,
-        "day": 9
-    },
-    "hair_color": "ginger",
-    "is_citizen": False,
-    "favorite_foods": [
-        "tonfisk",
-        "blodpudding",
-        "aladåb"
-    ],
-    "pets": [
-        {
-            "type": "giraffe",
-            "name": "Måns",
-            "age": 45
-        },
-        {
-            "type": "stick-bug",
-            "name": "Zelme",
-            "age": 3
-        },
-        {
-            "type": "pikachu",
-            "name": "Rlöw",
-            "age": 94
-        }
-    ]
-}
+import json
+
+f = open("person.json", encoding="utf-8")
+content = f.read()
+
+my_dict = json.loads(content)
 
 # date_dict = {
 #     "year": 2012,

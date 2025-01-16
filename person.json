@@ -1,0 +1,33 @@
+{
+    "name": "Sven-Ingvar",
+    "age": 13,
+    "birth_date": {
+        "year": 2012,
+        "month": 1,
+        "day": 9
+    },
+    "hair_color": "ginger",
+    "is_citizen": false,
+    "favorite_foods": [
+        "tonfisk",
+        "blodpudding",
+        "aladåb"
+    ],
+    "pets": [
+        {
+            "type": "giraffe",
+            "name": "Måns",
+            "age": 45
+        },
+        {
+            "type": "stick-bug",
+            "name": "Zelme",
+            "age": 3
+        },
+        {
+            "type": "pikachu",
+            "name": "Rlöw",
+            "age": 94
+        }
+    ]
+}
